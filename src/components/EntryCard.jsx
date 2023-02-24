@@ -33,9 +33,10 @@ function EntryCard() {
                 </div>
 
                 <div className="button-box">
-
-
+                    <button className='bad-mood-button'>Bad</button>
+                    <button className='good-mood-button'>Good</button>
                 </div>
+
             </div>
         </>
     );

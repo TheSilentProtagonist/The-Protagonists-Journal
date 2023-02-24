@@ -70,7 +70,10 @@ code {
 }
 
 
-.button-box {}
+.button-box {
+
+    background-color: var(--darkest-color);
+}
 
 .tag-holder {}
 

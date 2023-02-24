@@ -2,8 +2,14 @@ import React from 'react';
 
 function EntryCard() {
 
-    function entryCode {
-        
+    function cardCode {
+        console.log("card code running")
+
+
+    }
+
+    function buttonCode {
+        console.log("button code runs on click")
     }
 
     return (

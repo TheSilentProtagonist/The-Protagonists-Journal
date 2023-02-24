@@ -2,6 +2,7 @@ import React from 'react';
 
 function EntryCard() {
     function imageUploadCode () {
+        console.log("image function runs")
         
     }
 
@@ -10,10 +11,14 @@ function EntryCard() {
 
 
     }
-s
+
     function buttonCode() {
         console.log("button code runs on click")
     }
+
+    }
+
+    
 
     return (
         <>

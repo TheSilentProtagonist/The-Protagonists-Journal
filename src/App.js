@@ -5,7 +5,14 @@ function App() {
     return (
         <>
             <div>
-                <Row />
+                <Header/>
+
+                <Main/>
+                
+
+                <Footer/>
+
+                
             </div>
         </>
     );

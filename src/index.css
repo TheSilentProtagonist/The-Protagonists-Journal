@@ -29,10 +29,9 @@ code {
 }
 
 .entry-card {
-    padding: 30px 30px;
+    padding: 1.2rem;
     border-radius: 8px;
     background-color: var(--lightest-color);
-
 }
 
 
@@ -40,24 +39,40 @@ code {
 
 
 .title-box {
-    background-color: var(--darkest-color);
+    color: var(--darkest-color);
+    margin-bottom: 1.8rem;
+}
+
+.content-box {
+    background-color: var(--white);
     border-radius: 8px;
-    padding: 13px 23px;
-    color: var(--white);
+    padding: 1.2rem;
+    margin: .3rem 1.7rem;
 }
 
 .title-box .date-holder>h6 {
     font-size: 0.73rem;
+    margin-bottom: 1.3rem;
+    color: var(--middle-color);
 }
 
 .title-box .title-holder>h5 {
     font-size: 1.3rem;
 }
 
+.entry-content {
+    background-color: var(--white);
+    border-radius: 8px;
+}
 
-.text-box {}
+.entry-content>p {
+    color: var(--darkest-color);
+}
 
-.hashtag-box {}
+
+.button-box {}
+
+.tag-holder {}
 
 /* Row Styles */
 

@@ -16,3 +16,16 @@ code {
 .card {
   border: 1px solid red;
 }
+
+
+/* Bootstrap Styles */
+
+.row {
+  display: flex;
+
+}
+
+.col {
+  
+}
+

@@ -7,7 +7,9 @@ import Row from "./components/Row";
 
 function App() {
     return (<>
-    
+    <div>
+        <Row/>
+    </div>
     </>);
 }
 

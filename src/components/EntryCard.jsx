@@ -2,13 +2,13 @@ import React from 'react';
 
 function EntryCard() {
 
-    function cardCode {
+    function cardCode() {
         console.log("card code running")
 
 
     }
 
-    function buttonCode {
+    function buttonCode() {
         console.log("button code runs on click")
     }
 

@@ -1,6 +1,11 @@
 import React from 'react';
 
 function EntryCard() {
+
+    function entryCode {
+        
+    }
+
     return (
         <>
             {/* Entry content */}
@@ -24,19 +29,23 @@ function EntryCard() {
                             quaerat deserunt nam expedita. Eaque sed in ratione?
                         </p>
                     </div>
+
+                    <div className="tag-holder">
+                        <p>#tag</p>
+                    </div>
                 </div>
                 {/* buttons tags and lower half */}
 
-                <div className="tag-holder">
-                    
-
-                </div>
+                <div className="tag-holder"></div>
 
                 <div className="button-box">
-                    <button className='good-mood-button btn btn-primary btn-custom btn-lg rounded'>Good Mood</button>
-                    <button className='bad-mood-button btn btn-danger btn-custom btn-lg rounded'>Bad Mood</button>
+                    <button className="good-mood-button btn btn-primary btn-custom btn-lg rounded">
+                        Good Mood
+                    </button>
+                    <button className="bad-mood-button btn btn-danger btn-custom btn-lg rounded">
+                        Bad Mood
+                    </button>
                 </div>
-
             </div>
         </>
     );

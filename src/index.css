@@ -97,9 +97,9 @@ code {
 .button-box>.btn {
     background-color: var(--darkest-color);
     color: var(--white);
-    padding: .98em 1.9rem;
 
 }
+
 
 .btn.btn-danger {
     background-color: var(--darkest-color);
@@ -110,7 +110,20 @@ code {
     background-color: var(--bright-color);
 }
 
-.tag-holder {}
+.btn.btn-primary:hover {
+    background-color: var(--white);
+    color: var(--darkest-color);
+}
+
+.btn.btn-danger.btn:hover {
+    background-color: var(--white);
+    color: var(--darkest-color);
+}
+
+
+.tag-holder>p {
+    color: var(--middle-color);
+}
 
 /* Row Styles */
 

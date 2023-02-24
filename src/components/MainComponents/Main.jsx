@@ -1,16 +1,9 @@
 import React from 'react';
 
 function Main(props) {
+    return console.log('testing Main');
+    // Entry box
 
-    return (
-
-        // Entry box
-
-        //Entries Viewer
-            //Entries inside
-
-
-    );
-
-
+    //Entries Viewer
+    //Entries inside
 }

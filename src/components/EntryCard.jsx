@@ -1,23 +1,19 @@
 import React from 'react';
 
 function EntryCard() {
-    function imageUploadCode () {
-        console.log("image function runs")
-        
+
+    function imageUploadCode() {
+        console.log('image function runs');
     }
 
     function cardCode() {
-        console.log("card code running")
-
-
+        console.log('card code running');
     }
 
     function buttonCode() {
-        console.log("button code runs on click")
+        console.log('button code runs on click');
     }
-
-    }
-
+    
     
 
     return (

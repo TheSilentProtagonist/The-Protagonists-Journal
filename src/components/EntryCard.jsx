@@ -1,13 +1,16 @@
 import React from 'react';
 
 function EntryCard() {
+    function imageUploadCode () {
+        
+    }
 
     function cardCode {
         console.log("card code running")
 
 
     }
-
+s
     function buttonCode {
         console.log("button code runs on click")
     }

@@ -33,8 +33,8 @@ function EntryCard() {
                 </div>
 
                 <div className="button-box">
-                    <button className='bad-mood-button'>Bad</button>
-                    <button className='good-mood-button'>Good</button>
+                    <button className='good-mood-button btn btn-primary btn-lg rounded'>Good Mood</button>
+                    <button className='bad-mood-button btn btn-danger btn-lg rounded'>Bad Mood</button>
                 </div>
 
             </div>

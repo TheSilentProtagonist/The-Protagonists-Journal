@@ -28,14 +28,25 @@ code {
         monospace;
 }
 
-.entry-card {
-    padding: 1.2rem;
-    border-radius: 8px;
-    background-color: var(--lightest-color);
-}
+
 
 
 /* Entry Card Styles */
+
+.entry-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: .7rem;
+    
+    padding: 1.2rem;
+    background-color: var(--lightest-color);
+    border-radius: 8px;
+    padding: 1.2rem;
+    margin: .3rem 1.7rem;
+    
+}
 
 
 .title-box {
@@ -48,6 +59,7 @@ code {
     border-radius: 8px;
     padding: 1.2rem;
     margin: .3rem 1.7rem;
+
 }
 
 .title-box .date-holder>h6 {
@@ -63,6 +75,7 @@ code {
 .entry-content {
     background-color: var(--white);
     border-radius: 8px;
+    
 }
 
 .entry-content>p {
@@ -71,8 +84,23 @@ code {
 
 
 .button-box {
+    display: flex;
+    gap: 1.7rem;
+}
 
+.button-box>.btn {
     background-color: var(--darkest-color);
+    color: var(--white);
+    padding: .98em 1.9rem;
+}
+
+.btn.btn-danger {
+    background-color: var(--darkest-color);
+}
+
+
+.btn.btn-primary {
+    background-color: var(--bright-color);
 }
 
 .tag-holder {}

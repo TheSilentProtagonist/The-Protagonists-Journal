@@ -6,6 +6,7 @@ function Row() {
     return (
         <>
             <div className="row">
+                <EntryCard/>
                 <div className="col-3">
                     
                 </div>

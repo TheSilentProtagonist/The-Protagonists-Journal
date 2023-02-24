@@ -1,24 +1,63 @@
+:root {
+    --darkest-color: #2E401A;
+
+    --dark-color: ##3B6623;
+
+    --middle-color: #5F8B3A;
+
+    --bright-color: #7FB069;
+
+    --lightest-color: #99C19E;
+
+    --white: #FFFDFA;
+
+}
+
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
 }
 
-.card {
-  border: 1px solid red;
+.entry-card {
+    padding: 30px 30px;
+    border-radius: 8px;
+    background-color: var(--lightest-color);
+
 }
 
+
+/* Entry Card Styles */
+
+
+.title-box {
+    background-color:  var(--darkest-color);
+    border-radius: 8px;
+    padding: 13px 35px;
+    color: var(--white);
+}
+
+.title-box h5 {
+
+}
+.title-box h6{
+    
+}
+
+
+.text-box {}
+
+.hashtag-box {}
+
+/* Row Styles */
 
 /* Bootstrap Styles */
-
-
-

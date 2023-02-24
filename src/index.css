@@ -40,17 +40,18 @@ code {
 
 
 .title-box {
-    background-color:  var(--darkest-color);
+    background-color: var(--darkest-color);
     border-radius: 8px;
-    padding: 13px 35px;
+    padding: 13px 23px;
     color: var(--white);
 }
 
-.title-box h5 {
-
+.title-box .date-holder>h6 {
+    font-size: 0.73rem;
 }
-.title-box h6{
-    
+
+.title-box .title-holder>h5 {
+    font-size: 1.3rem;
 }
 
 
